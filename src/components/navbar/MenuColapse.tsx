@@ -28,11 +28,11 @@ export function MenuColapse() {
 
         <nav className="flex flex-col gap-2">
         <SheetClose asChild>
-          <Link to="/" className="p-2 hover:bg-muted rounded-md">Home</Link>
+          <Link to="/java" className="p-2 hover:bg-muted rounded-md">Java</Link>
         </SheetClose>
 
         <SheetClose asChild>
-          <Link to="/about" className="p-2 hover:bg-muted rounded-md">About</Link> 
+          <Link to="/spring-boot" className="p-2 hover:bg-muted rounded-md">Spring Boot</Link> 
         </SheetClose>
 
         <ModeToggle />

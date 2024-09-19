@@ -9,8 +9,8 @@ function Navbar() {
         <img src="/spring.svg" alt="logo de spring boot" className="w-10 h-10" />
         </Link>
         <div className="hidden sm:flex items-center gap-3">
-            <Link to="/" className="px-3 py-1.5 hover:bg-muted rounded-md">Home</Link>
-            <Link to="/about" className="px-3 py-1.5 hover:bg-muted rounded-md">About</Link>
+            <Link to="/java" className="px-3 py-1.5 hover:bg-muted rounded-md">Java</Link>
+            <Link to="/spring-boot" className="px-3 py-1.5 hover:bg-muted rounded-md">Spring Boot</Link>
             <ModeToggle />
         </div>
         <MenuColapse />
