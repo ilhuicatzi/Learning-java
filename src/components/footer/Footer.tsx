@@ -11,7 +11,7 @@ function Footer() {
             <button
               aria-label="github"
               onClick={() =>
-                window.open("https://github.com/ilhuicatzi", "_blank")
+                window.open("https://github.com/ilhuicatzi/Learning-java", "_blank")
               }
             >
               <GitHubLogoIcon className="w-5 h-5 text-muted-foreground hover:text-current dark:hover:scale-125 hover:scale-125  inline-block transition duration-300" />
