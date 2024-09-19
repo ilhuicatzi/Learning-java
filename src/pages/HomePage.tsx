@@ -1,4 +1,5 @@
-import CardTemarioJava from "@/components/pages/home/CardTemarioJava";
+import CardTemario from "@/components/pages/home/CardTemario";
+import { TemarioJava, TemarioSpringBoot } from "@/utils/temarioJavaSpring";
 
 function HomePage() {
   return (
@@ -9,8 +10,9 @@ function HomePage() {
           <span className="text-lime-600">Spring Boot</span>
         </h1>
       </section>
-      <section className="grid grid-cols-2 gap-4 p-8">
-        <CardTemarioJava />
+      <section className="grid grid-cols-2 gap-7 p-10">
+        <CardTemario temario={TemarioJava} color="orange" />
+        <CardTemario temario={TemarioSpringBoot} color="lime" />
       </section>
     </div>
   );
