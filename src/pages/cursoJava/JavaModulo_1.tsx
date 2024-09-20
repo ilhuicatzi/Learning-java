@@ -6,6 +6,7 @@ import {
 } from "@/components/ui/accordion";
 import Introduccion from "@/components/pages/java/modulos/M1_Introduccion";
 import SintaxisBasica from "@/components/pages/java/modulos/M1_SintaxisBasica";
+import ClasesObjetos from "@/components/pages/java/modulos/M1_ClasesObjetos";
 
 function JavaIntroduccion() {
   return (
@@ -22,6 +23,12 @@ function JavaIntroduccion() {
           <AccordionTrigger className="text-lg">Sintaxis Básica</AccordionTrigger>
           <AccordionContent>
             <SintaxisBasica />
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-ClasesObjetos">
+          <AccordionTrigger className="text-lg">Clases y Objetos</AccordionTrigger>
+          <AccordionContent>
+            <ClasesObjetos />
           </AccordionContent>
         </AccordionItem>
       </Accordion>
