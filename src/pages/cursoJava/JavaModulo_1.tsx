@@ -13,7 +13,7 @@ function JavaIntroduccion() {
   return (
     <main className="w-full max-w-4xl">
       <h1 className="text-4xl font-semibold my-5 mx-5 md:mx-10 xl:mx-20 "><span className="text-orange-600">Módulo 1:</span> Fundamentos de Java</h1>
-      <Accordion type="single" collapsible className="w-full mx-20">
+      <Accordion type="single" collapsible className="w-11/12 mx-5 md:mx-10 xl:mx-20 ">
         <AccordionItem value="item-HolaMundo">
           <AccordionTrigger className="text-lg">Introducción</AccordionTrigger>
           <AccordionContent>
