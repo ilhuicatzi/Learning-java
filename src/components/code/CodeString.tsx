@@ -11,7 +11,7 @@ function CodeString({ code }: { code: string }) {
     navigator.clipboard.writeText(code);
   };
   return (
-    <pre className="dark:bg-neutral-900 bg-neutral-100 my-2 rounded-md shadow dark:shadow-muted flex justify-between w-full max-w-2xl">
+    <pre className="dark:bg-neutral-900 bg-neutral-100 my-2 rounded-md shadow dark:shadow-muted flex justify-between w-full max-w-60 min-[350px]:max-w-72 min-[450px]:max-w-96 sm:max-w-lg  md:max-w-xl  lg:max-w-2xl overflow-auto">
       <code className="font-inconsolata font-medium select-all pl-4 py-3 text-neutral-800 dark:text-neutral-100">
         {code}
       </code>
