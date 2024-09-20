@@ -13,8 +13,8 @@ import {
   Ejemplo_Polimorfismo_sobreescritura_salida,
   Ejemplo_Polimorfismo_sobrecarga,
   Ejemplo_Polimorfismo_sobrecarga_salida,
-} from "@/utils/codigoJava/modulo_1";
-function Modulo_1() {
+} from "@/utils/codigoJava/CodeM1_Introduccion";
+function M1_Introduccion() {
   return (
     <Container>
       <article>
@@ -127,4 +127,4 @@ function Modulo_1() {
   );
 }
 
-export default Modulo_1;
+export default M1_Introduccion;

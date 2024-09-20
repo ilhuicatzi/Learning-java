@@ -1,8 +1,25 @@
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import Introduccion from "@/components/pages/java/modulos/M1_Introduccion";
 
-function JavaModulo_1() {
+function JavaIntroduccion() {
   return (
-    <div>JavaModulo_1</div>
+    <main className="w-full max-w-4xl">
+      <h1 className="text-4xl font-semibold my-5">Módulo 1: Fundamentos de Java</h1>
+      <Accordion type="single" collapsible className="w-full mx-20">
+        <AccordionItem value="item-HolaMundo">
+          <AccordionTrigger className="text-lg">Introducción</AccordionTrigger>
+          <AccordionContent>
+            <Introduccion />
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+    </main>
   )
 }
 
-export default JavaModulo_1
+export default JavaIntroduccion

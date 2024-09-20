@@ -1,7 +1,7 @@
 
 function HeroJava() {
   return (
-    <section className="w-full flex justify-center items-start flex-col mx-20 my-10 space-y-4">
+    <section className="w-full max-w-4xl flex justify-center items-start flex-col mx-5 md:mx-10 xl:mx-20 my-10 space-y-4">
         <h1 className="text-4xl font-semibold">
           Aprendiendo <span className="text-orange-600">Java</span>
         </h1>

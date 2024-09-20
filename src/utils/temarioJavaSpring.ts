@@ -1,5 +1,6 @@
 export interface Temario {
     id: number;
+    url_modulo: string;
     modulo: string;
     topics: Topic[];
 }
@@ -14,6 +15,7 @@ interface Topic {
 export const TemarioJava: Temario[] = [
   {
     id: 1,
+    url_modulo: "/java/modulo-1",
     modulo: "Módulo 1: Fundamentos de Java",
     topics: [
       {
@@ -61,6 +63,7 @@ export const TemarioJava: Temario[] = [
   },
   {
     id: 2,
+    url_modulo: "/java/modulo-2",
     modulo: "Módulo 2: Profundización en la OOP en Java",
     topics: [
       {
@@ -96,6 +99,7 @@ export const TemarioJava: Temario[] = [
   },
   {
     id: 3,
+    url_modulo: "/java/modulo-3",
     modulo: "Módulo 3: Manipulación de colecciones y genéricos",
     topics: [
       {
@@ -120,6 +124,7 @@ export const TemarioJava: Temario[] = [
   },
   {
     id: 4,
+    url_modulo: "/java/modulo-4",
     modulo: "Módulo 4: Manejo avanzado de archivos y flujos",
     topics: [
       {
@@ -141,6 +146,7 @@ export const TemarioJava: Temario[] = [
   },
   {
     id: 5,
+    url_modulo: "/java/modulo-5",
     modulo: "Módulo 5: Concurrencia en Java",
     topics: [
       {
@@ -162,6 +168,7 @@ export const TemarioJava: Temario[] = [
   },
   {
     id: 6,
+    url_modulo: "/java/modulo-6",
     modulo: "Módulo 6: Programación funcional en Java",
     topics: [
       {
@@ -189,6 +196,7 @@ export const TemarioJava: Temario[] = [
   },
   {
     id: 7,
+    url_modulo: "/java/modulo-7",
     modulo: "Módulo 7: Bases de datos con Java",
     topics: [
       {
@@ -207,6 +215,7 @@ export const TemarioJava: Temario[] = [
   },
   {
     id: 8,
+    url_modulo: "/java/modulo-8",
     modulo: "Módulo 8: Buenas prácticas y patrones de diseño en Java",
     topics: [
       {
@@ -229,6 +238,7 @@ export const TemarioJava: Temario[] = [
 export const TemarioSpringBoot: Temario[] = [
   {
     id: 1,
+    url_modulo: "/spring-boot/modulo-1",
     modulo: "Módulo 1: Introducción y Configuración Básica",
     topics: [
       {
@@ -264,6 +274,7 @@ export const TemarioSpringBoot: Temario[] = [
   },
   {
     id: 2,
+    url_modulo: "/spring-boot/modulo-2",
     modulo: "Módulo 2: Fundamentos de Spring Boot",
     topics: [
       {
@@ -299,6 +310,7 @@ export const TemarioSpringBoot: Temario[] = [
   },
   {
     id: 3,
+    url_modulo: "/spring-boot/modulo-3",
     modulo: "Módulo 3: Desarrollo de APIs RESTful",
     topics: [
       {
@@ -334,6 +346,7 @@ export const TemarioSpringBoot: Temario[] = [
   },
   {
     id: 4,
+    url_modulo: "/spring-boot/modulo-4",
     modulo: "Módulo 4: Acceso a Datos con Spring Data JPA",
     topics: [
       {
@@ -367,6 +380,7 @@ export const TemarioSpringBoot: Temario[] = [
   },
   {
     id: 5,
+    url_modulo: "/spring-boot/modulo-5",
     modulo: "Módulo 5: Seguridad en Spring Boot",
     topics: [
       {
@@ -400,6 +414,7 @@ export const TemarioSpringBoot: Temario[] = [
   },
   {
     id: 6,
+    url_modulo: "/spring-boot/modulo-6",
     modulo: "Módulo 6: Integración con Otros Servicios",
     topics: [
       {
@@ -424,6 +439,7 @@ export const TemarioSpringBoot: Temario[] = [
   },
   {
     id: 7,
+    url_modulo: "/spring-boot/modulo-7",
     modulo: "Módulo 7: Pruebas en Spring Boot",
     topics: [
       {
@@ -448,6 +464,7 @@ export const TemarioSpringBoot: Temario[] = [
   },
   {
     id: 8,
+    url_modulo: "/spring-boot/modulo-8",
     modulo: "Módulo 8: Despliegue y Monitorización de Aplicaciones",
     topics: [
       {
