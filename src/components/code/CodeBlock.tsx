@@ -1,5 +1,5 @@
 import hljs from "highlight.js";
-import "highlight.js/styles/an-old-hope.css";
+import "highlight.js/styles/base16/humanoid-dark.css";
 import java from "highlight.js/lib/languages/java";
 import ToolTipCopy from "./ToolTipCopy";
 
@@ -9,7 +9,7 @@ type Props = {
   code: string;
 };
 
-function CodeComponent({ code }: Props) {
+function CodeBlock({ code }: Props) {
   const highlightedCode = hljs.highlight(code, {
     language: "java",
   }).value;
@@ -23,7 +23,7 @@ function CodeComponent({ code }: Props) {
         <ToolTipCopy copyToClipboard={copyToClipboard} />
       </div>
       <div
-        className="w-full bg-stone-100 dark:bg-stone-900/70 rounded-lg overflow-auto"
+        className="w-full bg-neutral-100 dark:bg-neutral-900/70 rounded-lg overflow-auto"
       >
         <pre>
           <code
@@ -36,4 +36,4 @@ function CodeComponent({ code }: Props) {
   );
 }
 
-export default CodeComponent;
+export default CodeBlock;

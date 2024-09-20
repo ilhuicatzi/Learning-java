@@ -15,9 +15,11 @@ interface ColorProps {
 
 function CardTemario({
   temario,
+  titulo,
   color = "primary" as ColorProps["color"],
 }: {
   temario: Temario[];
+  titulo: string;
   color?: ColorProps["color"];
 }) {
   const colorClass = {
@@ -38,7 +40,7 @@ function CardTemario({
     <Card>
       <CardHeader>
         <CardTitle className={`text-center text-2xl text-primary ${selectedColor}`}>
-          Temario Java
+          {titulo}
         </CardTitle>
       </CardHeader>
       <CardContent>

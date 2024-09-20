@@ -11,8 +11,8 @@ function HomePage() {
         </h1>
       </section>
       <section className="grid lg:grid-cols-2 gap-7 sm:p-10 p-3">
-        <CardTemario temario={TemarioJava} color="orange" />
-        <CardTemario temario={TemarioSpringBoot} color="lime" />
+        <CardTemario temario={TemarioJava} color="orange" titulo="Temario Java" />
+        <CardTemario temario={TemarioSpringBoot} color="lime" titulo="Temario Spring"/>
       </section>
     </div>
   );
