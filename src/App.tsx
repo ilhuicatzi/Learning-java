@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom'
 import HomePage from './pages/HomePage'
 import Navbar from './components/navbar/Navbar'
-import JavaPage from './pages/JavaPage'
-import SpringBootPage from './pages/SpringBootPage'
+import JavaPage from './pages/cursoJava/JavaPage'
+import SpringBootPage from './pages/cursoSpring/SpringBootPage'
 import Footer from './components/footer/Footer'
 
 function App() {
