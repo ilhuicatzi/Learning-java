@@ -5,7 +5,7 @@ function HeroJava() {
         <h1 className="text-4xl font-semibold">
           Aprendiendo <span className="text-orange-600">Java</span>
         </h1>
-        <p>
+        <p className="p-2">
             Java es un lenguaje de programación de propósito general que se
             creó en 1995 por Sun Microsystems. Es un lenguaje de programación
             orientado a objetos, lo que significa que se basa en el concepto de

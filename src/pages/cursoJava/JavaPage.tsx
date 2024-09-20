@@ -7,7 +7,7 @@ function JavaPage() {
   return (
     <main className="w-full max-w-5xl">
       <HeroJava />
-      <section className="grid md:grid-cols-2  xl:grid-cols-3 gap-5 mx-5 md:mx-10 xl:mx-20 my-10">
+      <section className="grid md:grid-cols-2 xl:grid-cols-3 gap-5 mx-4 sm:mx-10 xl:mx-20 my-10">
       {TemarioJava.map((modulo:Temario) => (
         <Card key={modulo.id} className="bg-background hover:bg-muted cursor-pointer">
           <Link to={modulo.url_modulo} >
@@ -18,7 +18,7 @@ function JavaPage() {
             {modulo.topics.map((topic) => (
               <div key={topic.id}>
                 <ul className="list-disc list-inside pl-2 text-sm">
-                  <li className="truncate">{topic.title}</li>
+                  <li className="truncate w-52">{topic.title}</li>
                 </ul>
               </div>
             ))}
