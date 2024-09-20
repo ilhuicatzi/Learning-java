@@ -37,7 +37,7 @@ export const TemarioJava: Temario[] = [
           "Operadores y estructuras de control",
           "Métodos y parámetros",
         ],
-        complete: false,
+        complete: true,
       },
       {
         id: "m1t3",
@@ -47,7 +47,7 @@ export const TemarioJava: Temario[] = [
           "Métodos estáticos y variables",
           "Sobrecarga de métodos",
         ],
-        complete: false,
+        complete: true,
       },
       {
         id: "m1t4",
@@ -57,7 +57,7 @@ export const TemarioJava: Temario[] = [
           "Excepciones verificadas y no verificadas",
           "Clausulas throw y throws",
         ],
-        complete: false,
+        complete: true,
       },
     ],
   },
