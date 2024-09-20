@@ -7,6 +7,7 @@ import {
 import Introduccion from "@/components/pages/java/modulos/M1_Introduccion";
 import SintaxisBasica from "@/components/pages/java/modulos/M1_SintaxisBasica";
 import ClasesObjetos from "@/components/pages/java/modulos/M1_ClasesObjetos";
+import ManjoExcepciones from "@/components/pages/java/modulos/M1_ManejoExcepciones";
 
 function JavaIntroduccion() {
   return (
@@ -29,6 +30,12 @@ function JavaIntroduccion() {
           <AccordionTrigger className="text-lg">Clases y Objetos</AccordionTrigger>
           <AccordionContent>
             <ClasesObjetos />
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-ManejoExcepciones">
+          <AccordionTrigger className="text-lg">Manejo de Excepciones</AccordionTrigger>
+          <AccordionContent>
+            <ManjoExcepciones />
           </AccordionContent>
         </AccordionItem>
       </Accordion>
